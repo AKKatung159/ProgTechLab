@@ -19,7 +19,7 @@ public class Subject implements Evaluation{
         for(int i=0;i<score.length;i++){
             ans+=score[i];
         }
-        return ans;
+        return ans/score.length;
     }
     public char grade(double score){
         char ans=' ';
