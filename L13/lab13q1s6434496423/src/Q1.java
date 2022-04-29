@@ -14,7 +14,7 @@ public class Q1 {
     public static void main(String[] args) throws Exception{
         int charCnt = 0;
         int wordCnt = 0;
-        int lineCnt = 0 ;
+        int lineCnt = 0;
         //File opFile = new File("text.txt");
         Scanner sc =new Scanner(System.in);
         PrintWriter op = new PrintWriter("text.txt");
